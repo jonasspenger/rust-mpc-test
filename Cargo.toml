@@ -1,0 +1,11 @@
+[package]
+name = "rust-mpc-test"
+version = "0.1.0"
+authors = ["Jonas Spenger <6832643+jonasspenger@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+curv = { git = "https://github.com/ZenGo-X/curv" }
+
+[lib]
+crate-type = ["lib"]
