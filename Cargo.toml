@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 curv = { git = "https://github.com/ZenGo-X/curv" }
+rand = "0.8"
 
 [lib]
 crate-type = ["lib"]
